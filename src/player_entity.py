@@ -1,3 +1,5 @@
+''' The module containing the Player and Dealer class Parent
+'''
 from card import Card
 from hand import Hand
 

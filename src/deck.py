@@ -1,3 +1,5 @@
+''' The module containing the Deck object
+'''
 from itertools import product
 from random import shuffle
 from card import Card
@@ -8,6 +10,9 @@ VALUES = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']
 
 
 class Deck:
+    ''' The Deck for the card game. Made of Cards
+    '''
+
     def __init__(self, num_decks: int = 2) -> None:
         self._deck: list[Card] = []
         self.create_deck(num_decks)

@@ -1,3 +1,5 @@
+''' The module containing the Hand object
+'''
 from card import Card
 
 card_values = {

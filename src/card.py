@@ -1,4 +1,11 @@
+''' The module containing the Card object
+'''
+
+
 class Card:
+    ''' The Card objects in the Player hands and the Deck 
+    '''
+
     def __init__(self, value: str, suit: str) -> None:
         self._value = value
         self._suit = suit
