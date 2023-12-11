@@ -11,9 +11,19 @@ class Card:
         self._suit = suit
 
     def get_value(self) -> str:
+        '''get_value Get the value of the Card
+
+        Returns:
+            str: Value of the Card
+        '''
         return self._value
 
     def get_suit(self) -> str:
+        '''get_suit Get the suit of the Card
+
+        Returns:
+            str: Suit of the Card
+        '''
         return self._suit
 
     def __str__(self) -> str:

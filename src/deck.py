@@ -1,7 +1,9 @@
 ''' The module containing the Deck object
 '''
+
 from itertools import product
 from random import shuffle
+
 from card import Card
 from player_entity import PlayerEntity
 
@@ -63,4 +65,9 @@ class Deck:
                 player.add_cards(card)
 
     def get_cards(self) -> list[Card]:
+        '''get_cards Get Cards remaining in the Deck
+
+        Returns:
+            list[Card]: List of all remaining Cards
+        '''
         return self._deck
