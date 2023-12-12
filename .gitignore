@@ -1,0 +1,32 @@
+# .gitignore
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Workspace
+workspace/
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Compiled Python files
+*.pyc
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
