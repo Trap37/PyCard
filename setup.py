@@ -2,11 +2,9 @@ from setuptools import setup, find_packages
 
 setup(
     name='PyCard',
-    version='0.1',
-    author='Patrick Farrell',
-    description='Python Card Game Devolopment',
+    version='0.1.0',
     packages=find_packages(),
-    install_requires=[
-        # List any dependencies your module may have
-    ],
+    author='Patrick Farrell',
+    description='A card game library',
+    url='https://github.com/Trap37/PyCard',
 )
