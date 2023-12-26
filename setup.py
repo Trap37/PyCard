@@ -9,6 +9,7 @@ setup(
     description="A free library for all things cards",
     packages=find_packages(),
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
     url="https://github.com/Trap37/Pycard",
     author="Trap37",
     license="MIT",
