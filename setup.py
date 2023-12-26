@@ -19,7 +19,7 @@ setup(
     ],
     install_requires=[""],
     extras_require={
-        "dev": ["pytest>=7.4.3", "twine>=4.0.2"],
+        "dev": ["pytest>=7.0", "twine>=4.0"],
     },
     python_requires=">=3.11",
 )
