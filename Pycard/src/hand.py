@@ -1,6 +1,6 @@
 ''' The module containing the Hand object
 '''
-from card import Card
+from .card import Card
 
 card_values = {
     '2': 2,

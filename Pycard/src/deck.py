@@ -4,8 +4,8 @@
 from itertools import product
 from random import shuffle
 
-from card import Card
-from player_entity import PlayerEntity
+from .card import Card
+from .player_entity import PlayerEntity
 
 SUITS = ['CLUB', 'DIAMOND', 'HEART', 'SPADE']
 VALUES = ['A', '2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K']

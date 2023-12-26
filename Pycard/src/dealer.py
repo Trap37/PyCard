@@ -1,7 +1,7 @@
 ''' The module containing the Dealer object
 '''
 
-from player_entity import PlayerEntity
+from .player_entity import PlayerEntity
 
 
 class Dealer(PlayerEntity):
